@@ -19,6 +19,7 @@ public class Login {
 	{
 		PageFactory.initElements(driver, this);
 	}
+	//Login
 	public void applicationLogin(String loginName,String loginPassword){
 	uName.sendKeys(loginName);
 	pass.sendKeys(loginPassword);
